@@ -76,7 +76,6 @@ const Theme: React.FC<ThemeProviderProps> = ({
     if (enableColorScheme) {
       const fallback = colorSchemes.includes(defaultTheme) ? defaultTheme : null;
       const colorScheme = colorSchemes.includes(resolved) ? resolved : fallback;
-      // @ts-ignore
       d.style.colorScheme = colorScheme;
     }
 
