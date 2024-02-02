@@ -9,20 +9,32 @@ const config: Config = {
     "./src/shared/templates/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "0",
+        lg: "0",
+        xl: "0",
+      },
+    },
     extend: {
       colors: {
         /**
          * need to define a color palette,
          *  - need a variety (5-10) of lighter and darker shades to choose from.
          */
-        primary: "#f57264", // orange vitaminC
+        primary: {
+          light: "#f57264",
+          DEFAULT: "#f57264", // orange vitaminC
+          dark: "#FF9966",
+        },
         secondary: "#042045",
         tertiary: "#27b5cf", // blue
         // highlight: '#ddd0fe',
         // light: '#fefefe',
         // dark: "#6658fe",
-        lavender: "#9e81bf", // "#b392f0",
-        mint: "#95bfac",
+        // lavender: "#9e81bf", // "#b392f0",
+        // mint: "#95bfac",
         // amber: "#d3ad57", //"#fca311",
       },
       // backgroundColor: {

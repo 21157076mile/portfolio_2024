@@ -7,3 +7,21 @@ export const LOCAL_STORAGE_KEY = {
   version: `${prefixStorageKey}_version`, // not-use
   uiTheme: `${prefixStorageKey}_theme`,
 };
+
+export const MAIN_NAV = [
+  {
+    id: "home",
+    label: "Home",
+    href: "/",
+  },
+  {
+    id: "projects",
+    label: "Projects",
+    href: "/projects",
+  },
+  {
+    id: "about",
+    label: "About",
+    href: "/about",
+  },
+];

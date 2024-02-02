@@ -104,15 +104,15 @@ const ThemeSwitch = ({ isMobile }: Props) => {
           <Popover.Button className="outline-none ">
             {renderCurrentTheme(theme)}
           </Popover.Button>
-          <Popover.Panel className="dark:highlight-white/5 absolute -right-5 top-2 z-10 mt-7 w-36 overflow-hidden rounded-lg bg-white py-1 text-sm font-semibold text-slate-700 shadow-xl ring-1 ring-slate-900/10 dark:bg-slate-800 dark:text-slate-300 dark:ring-0">
-            <ul tabIndex={0} className="w-[120px]">
+          <Popover.Panel className="dark:highlight-white/5 absolute -right-5 top-2 z-10 mt-7 w-28 overflow-hidden rounded-lg bg-white py-1 text-sm font-light text-slate-700 shadow-xl ring-1 ring-slate-900/10 dark:bg-slate-800 dark:text-slate-300 dark:ring-0">
+            <ul tabIndex={0} className="w-full">
               {listThemes.map((item) => (
                 <li
                   key={item.value}
                   tabIndex={-1}
                   onClick={() => setTheme(item.value)}
                   className={clsx(
-                    "flex cursor-pointer items-center py-1 pl-3 pr-2 hover:bg-slate-100 dark:hover:bg-slate-700",
+                    "flex cursor-pointer items-center py-1 pl-4 pr-2 hover:bg-slate-100 dark:hover:bg-slate-700",
                     {
                       "text-sky-500": theme === item.value,
                     },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { StoreProvider } from "@config/store-provider";
+// import { StoreProvider } from "@config/store-provider";
 import ThemeProvider from "@config/theme-provider";
 
 import "@shared/styles/globals.scss";
@@ -19,12 +19,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <StoreProvider>
-      <html lang="en">
-        <body className={inter.className}>
-          <ThemeProvider>{children}</ThemeProvider>
-        </body>
-      </html>
-    </StoreProvider>
+    // <StoreProvider>
+    <html lang="en">
+      <body className={inter.className}>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+    // </StoreProvider>
   );
 }

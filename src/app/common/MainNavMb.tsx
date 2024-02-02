@@ -2,14 +2,19 @@
 
 import { Fragment, useState } from "react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Dialog, Transition } from "@headlessui/react";
+import clsx from "clsx";
 
+import { MAIN_NAV } from "@shared/constant";
 import { CloseIcon, DotsVerticalRoundedIcon } from "@shared/icons";
 
-const SignInHeader = dynamic(() => import("./SignInHeader"), { ssr: false });
+// const SignInHeader = dynamic(() => import("./SignInHeader"), { ssr: false });
 const ThemeSwitch = dynamic(() => import("./ThemeSwitch"), { ssr: false });
 
-export default function NavMenuMb() {
+export default function MainNavMb() {
+  const currentRoute = usePathname();
   const [isModalOpen, setModalOpen] = useState(false);
 
   function closeModal() {
@@ -26,7 +31,7 @@ export default function NavMenuMb() {
         <button
           type="button"
           onClick={openModal}
-          className="flex h-8 w-8 items-center justify-center p-5 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+          className="flex h-8 w-8 items-center justify-center p-5 text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-slate-300"
         >
           <span className="sr-only">Navigation</span>
           <DotsVerticalRoundedIcon aria-hidden="true" />
@@ -62,41 +67,33 @@ export default function NavMenuMb() {
               <button
                 type="button"
                 onClick={closeModal}
-                className="absolute right-5 top-5 flex h-8 w-8 items-center justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+                className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-slate-300"
               >
                 <span className="sr-only">Close navigation</span>
                 <CloseIcon />
               </button>
 
-              <div className="pt-2">
+              {/* <div className="pt-2">
                 <SignInHeader />
-              </div>
+              </div> */}
 
-              <ul className="mt-6 space-y-6 border-t border-slate-200 pt-6 dark:border-slate-200/10">
-                <li>
-                  <a
-                    className="hover:text-sky-500 dark:hover:text-sky-400"
-                    href="/"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:text-sky-500 dark:hover:text-sky-400"
-                    href="/projects"
-                  >
-                    Projects
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:text-sky-500 dark:hover:text-sky-400"
-                    href="/contact"
-                  >
-                    About
-                  </a>
-                </li>
+              <ul className="mt-3 space-y-6">
+                {MAIN_NAV.map((item) => (
+                  <li key={item.id}>
+                    <Link
+                      href={item.href}
+                      className={clsx(
+                        "block text-lg font-light lowercase hover:text-sky-500 dark:hover:text-sky-400",
+                        {
+                          "dark:text-primary-dark text-primary":
+                            currentRoute === item.href,
+                        },
+                      )}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
               </ul>
 
               <div className="mt-6 border-t border-slate-200 pt-6 dark:border-slate-200/10">

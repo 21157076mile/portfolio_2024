@@ -23,9 +23,11 @@
   }
 }
 
-input:focus {
+input:focus,
+button:focus {
   outline: none;
 }
+// button:focus {outline:0;}
 
 .svg-icon {
   // fill: currentColor;
