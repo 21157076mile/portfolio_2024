@@ -36,7 +36,7 @@ export default function Hobbies() {
         fields... and get some fresh air.
       </p>
 
-      <div className="pt-5">
+      <div className="pt-5 max-w-[700px] mx-auto">
         <div className="columns-2 gap-1 sm:columns-3 md:columns-3 [&>img:not(:first-child)]:mt-1">
           {images.map((image, index) => (
             <img

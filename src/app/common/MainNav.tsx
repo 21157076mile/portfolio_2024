@@ -18,10 +18,10 @@ export default function MainNav() {
           key={item.id}
           href={item.href}
           className={clsx(
-            "ml-8 border-b-2 border-dotted text-lg font-light lowercase hover:text-sky-500 dark:hover:text-sky-400",
+            "ml-8 border-b-2 border-dotted text-lg font-light lowercase  dark:hover:text-sky-300",
             currentRoute === item.href
-              ? "dark:text-primary-dark dark:hover:text-primary-dark dark:border-primary-dark cursor-default border-primary text-primary hover:text-primary"
-              : "border-transparent",
+              ? "cursor-default border-primary text-primary hover:text-primary dark:border-primary-dark dark:text-primary-dark dark:hover:text-primary-dark"
+              : "border-transparent hover:text-sky-500",
           )}
         >
           {item.label}

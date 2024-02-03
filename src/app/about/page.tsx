@@ -50,7 +50,8 @@ export default function Page() {
         </div>
         <div className="mb-5 mt-10 text-center text-sm">
           <h2 className="my-5 text-3xl font-extralight">let&apos;s connect</h2>
-          <p>you can find me on social media</p>
+          {/* <p>you can find me on social media</p> */}
+          <p>if you ever want to chat or have questions, feel free to reach out me on social media</p>
           <div className="mt-1 flex select-none items-center justify-center text-sm">
             <Link
               href="https://zalo.me/0989851497"
