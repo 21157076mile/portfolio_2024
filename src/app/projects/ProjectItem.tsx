@@ -21,7 +21,7 @@ export default function ProjectItem({ project, className }: Props) {
         className="bg-gradient-to-tr from-white"
         style={{ backgroundColor: project.color }}
       >
-        <div className="relative inset-0 flex h-full w-full -translate-x-1 -translate-y-1 flex-col border border-slate-300 bg-white sm:flex-row lg:flex lg:max-w-full dark:border-slate-700 dark:bg-slate-900">
+        <div className="relative inset-0 flex h-full w-full -translate-x-1 -translate-y-1 flex-col border border-slate-100 bg-white sm:flex-row lg:flex lg:max-w-full dark:border-slate-700 dark:bg-slate-800">
           <div className="p-2 sm:w-5/12">
             <div className="relative min-h-48 overflow-hidden sm:min-h-60 ">
               <Image
