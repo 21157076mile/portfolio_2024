@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center dark:bg-slate-800">
       <Header />
 
-      <div className="container flex flex-1 items-center justify-center">
+      <div className="container flex flex-1 items-center justify-center mb-2 sm:mb-10">
         <div className="flex flex-col sm:mt-10 sm:flex-row-reverse">
           <div className="relative mx-auto flex h-[320px] w-[320px] justify-center overflow-hidden rounded-full shadow sm:h-[360px] sm:w-[360px]">
             <Image
