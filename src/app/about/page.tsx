@@ -15,7 +15,7 @@ export default function Page() {
           <h2 className="my-5 text-3xl font-extralight">about me</h2>
           <div className="mx-auto max-w-[768px]">
             <p>
-              Hi there! My name&apos;s Dai. Thanks for comming this far!! 🤗
+              Hi there! My name&apos;s Dai. Thanks for comming here.
             </p>
             <p className="mt-1">
               I&apos;m a front-end developer with 7+ years of hands-on

@@ -54,7 +54,7 @@ export default function Page() {
       <div className="container flex-1">
         <div className="mt-10 text-center">
           <h2 className="my-5 text-2xl font-extralight">
-            Here are a few past design projects I&apos;ve worked on.{" "}
+            Here are a few past projects I&apos;ve worked on.{" "}
           </h2>
         </div>
         <div className="mx-auto max-w-[768px]">
