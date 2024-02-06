@@ -8,7 +8,7 @@ const myProjects: IProjectItem[] = [
     description:
       "helps fast-food chains manage their orders from the kitchen to customers.",
     responsible: "I am in charge of the website for customers.",
-    keywords: ["Tailwind CSS", "Next.js", "Diqit"],
+    keywords: ["Tailwind CSS", "Next.js", "Redux", "Diqit"],
     image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706976770/diqit_wdtejs.jpg",
     color: "#ef4427",
   },
@@ -42,7 +42,7 @@ const myProjects: IProjectItem[] = [
     responsible:
       "I am in charge of the widgets based on the client's requirements.",
     keywords: ["React", "Redux", "Highcharts", "Sentifi"],
-    image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706976770/sentifi_iobntx.jpg",
+    image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1707213815/sentifi-product_sw8rzi.jpg",
     color: "#f47b21",
   },
 ];

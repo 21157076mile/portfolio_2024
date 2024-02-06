@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import Footer from "./common/Footer";
 import Header from "./common/Header";
+import SocialMediaContact from "./common/SocialMediaContact";
 
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
                   href="/about"
                   className="group relative border border-black bg-transparent px-3 py-2 text-black transition duration-200 dark:border-gray-200"
                 >
-                  <div className="absolute -bottom-1 -right-1 -z-10 h-full w-full bg-yellow-300 transition-all duration-200 group-hover:bottom-0 group-hover:right-0 dark:z-10 dark:bg-yellow-300" />
+                  <div className="absolute -bottom-1 -right-1 -z-10 h-full w-full bg-amber-300 transition-all duration-200 group-hover:bottom-0 group-hover:right-0 dark:z-10" />
                   <span className="relative -bottom-1 -right-1 z-20 transition-all duration-200 group-hover:bottom-0 group-hover:right-0">
                     see more details about me
                   </span>
@@ -72,31 +73,7 @@ export default function Home() {
                 friends for some fresh air. If you&apos;re interested you can go
                 with us, get in touch here!
               </p>
-              <ul className="mt-3 flex justify-center space-x-5 text-sm">
-                <li>
-                  <Link
-                    href="https://zalo.me/0989851497"
-                    rel="nofollow noreferrer"
-                    className=" text-sky-600 hover:text-sky-700"
-                    target="_blank"
-                  >
-                    <span>
-                      zalo: <strong>0989851497</strong>
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.facebook.com/lvtd.hhd"
-                    rel="nofollow noreferrer"
-                    className=" text-sky-600 hover:text-sky-700"
-                    target="_blank"
-                  >
-                    facebook: <strong>/lvtd.hhd</strong>
-                  </Link>
-                </li>
-              </ul>
-              {/* <p className="text-sm"><strong>trangdai.levu@gmail.com</strong></p> */}
+              <SocialMediaContact className="mt-3" />
             </div>
           </div>
         </div>

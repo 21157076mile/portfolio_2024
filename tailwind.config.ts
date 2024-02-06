@@ -30,12 +30,14 @@ const config: Config = {
         },
         secondary: "#042045",
         tertiary: "#27b5cf", // blue
+        // mint: "#95bfac",
+        hophach: "#d3ad57", //"#fca311",
+
+
         // highlight: '#ddd0fe',
         // light: '#fefefe',
         // dark: "#6658fe",
         // lavender: "#9e81bf", // "#b392f0",
-        // mint: "#95bfac",
-        // amber: "#d3ad57", //"#fca311",
       },
       // backgroundColor: {
       //   highlight: "#f57264",

@@ -25,7 +25,7 @@ export default function MainNav() {
           )}
         >
           {item.label}
-          {currentRoute === item.href ? <hr className="absolute w-[150%] h-[1px]  bg-gray-700 border-0 dark:bg-gray-200 -bottom-1 -left-1/4" />: ""}
+          {currentRoute === item.href ? <hr className="absolute w-[150%] h-[1px]  bg-gray-700 border-0 dark:bg-gray-300 -bottom-1 -left-1/4" />: ""}
         </Link>
       ))}
       <div className="flex lg:ml-8 lg:items-center lg:border-l lg:border-slate-900/15 lg:pl-8 dark:lg:border-slate-600">

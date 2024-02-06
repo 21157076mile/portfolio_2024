@@ -114,7 +114,7 @@ const ThemeSwitch = ({ isMobile }: Props) => {
                   className={clsx(
                     "flex cursor-pointer items-center py-1 pl-4 pr-2 hover:bg-slate-100 dark:hover:bg-slate-700",
                     {
-                      "text-sky-500": theme === item.value,
+                      "text-sky-500 dark:text-sky-400": theme === item.value,
                     },
                   )}
                 >
