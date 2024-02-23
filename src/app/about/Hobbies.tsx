@@ -2,12 +2,12 @@
 
 const images = [
   {
-    src: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706886112/IMG_5786_jftlov.jpg",
-    alt: "Tân An",
-  },
-  {
     src: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706886112/IMG_6291_pa1hzj.jpg",
     alt: "Miếu Nổi Phù Châu",
+  },
+  {
+    src: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706886112/IMG_5786_jftlov.jpg",
+    alt: "Tân An",
   },
   {
     src: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706886115/IMG_5370_u0qgen.jpg",
