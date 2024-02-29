@@ -5,11 +5,11 @@ const nextConfig = {
     webVitalsAttribution: ["CLS", "LCP"]
   },
   images: {
-    unoptimized: true,
+    // unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "source.unsplash.com",
+        hostname: "res.cloudinary.com",
         port: "",
         // pathname: '/account123/**',
       },

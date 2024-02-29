@@ -321,6 +321,46 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@cloudinary-util/types@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary-util/types/-/types-1.0.0.tgz#ba272669507e8b707a37fd358d9a5537c7433fb1"
+  integrity sha512-h7rGVFjOWHhxUiN41sAQako54pLqLQAfp7pr3PdA1sui24zTubV1PTRlhg0hOpvzxFknaFbNwJ+6aj2fYIoKIQ==
+
+"@cloudinary-util/url-loader@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary-util/url-loader/-/url-loader-5.0.0.tgz#719c82753d4398531adfe7bd0626ce666c573d3d"
+  integrity sha512-WjfzbI/l6uqQsnq6xnPrR6gvicQzI9jMZnhJK1fpeM9FrLemRjqXZNEsJyx909BfKtE2WKMzzw2Tw7iQ7/R6LQ==
+  dependencies:
+    "@cloudinary-util/util" "3.0.0"
+    "@cloudinary/url-gen" "1.15.0"
+    zod "^3.22.4"
+
+"@cloudinary-util/util@3.0.0", "@cloudinary-util/util@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary-util/util/-/util-3.0.0.tgz#4096e0190108b2680c0027bf9afaeca039cea6cc"
+  integrity sha512-o6cJsN49OIelLcSkqUf4WzgefpePDFsAaeQfJbpcKhVdtvmWv71K0oZwMXuX62IY1OolqIg0etMiHtWZPhvPNA==
+
+"@cloudinary/transformation-builder-sdk@^1.10.0", "@cloudinary/transformation-builder-sdk@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary/transformation-builder-sdk/-/transformation-builder-sdk-1.13.0.tgz#46dde6fe93dba398521b3c11e345343b5d437bda"
+  integrity sha512-RCP+/B97t+rhh5ZmnOBerM45b73QATIXBv10SqOh9SU03GlNhsK3D3Ol9hrdCd1dcYks/rrTaK41Li5GNSEDJQ==
+  dependencies:
+    "@cloudinary/url-gen" "^1.7.0"
+
+"@cloudinary/url-gen@1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary/url-gen/-/url-gen-1.15.0.tgz#a55c9b51cb27301e0bdc4d60e44a7e73d13db103"
+  integrity sha512-bjU67eZxLUgoRy/Plli4TQio7q6P31OYqnEgXxeN9TKXrzr6h0DeEdIUhKI9gy3HkEBWXWWJIPh7j7gkOJPnyA==
+  dependencies:
+    "@cloudinary/transformation-builder-sdk" "^1.10.0"
+
+"@cloudinary/url-gen@^1.7.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary/url-gen/-/url-gen-1.18.0.tgz#75bc31f06eea19c1f19cac27612fe5a575e0861f"
+  integrity sha512-IszTCvSyvLOOAqtfM47h1jPbWptG0HU7spr4WkO9KdkZfITGk+autVC6lkFZrcbxbu4MRhqUqNklQ7P9yZpqYw==
+  dependencies:
+    "@cloudinary/transformation-builder-sdk" "^1.13.0"
+
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
   resolved "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz"
@@ -834,6 +874,11 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^9.0.0"
     "@types/react-dom" "^18.0.0"
+
+"@tsconfig/recommended@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/recommended/-/recommended-1.0.3.tgz#742540ba9170897a44097e838bca411abf56ccd2"
+  integrity sha512-+jby/Guq9H8O7NWgCv6X8VAiQE8Dr/nccsCtL74xyHKhu2Knu5EAKmOZj3nLCnLm1KooUzKY+5DsnGVqhM8/wQ==
 
 "@types/aria-query@^5.0.1":
   version "5.0.4"
@@ -3802,6 +3847,16 @@ next-auth@^4.24.5:
     preact-render-to-string "^5.1.19"
     uuid "^8.3.2"
 
+next-cloudinary@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/next-cloudinary/-/next-cloudinary-6.0.1.tgz#229473f5cf92444402db0c635bd4a9479a21bdd4"
+  integrity sha512-T+w6AVP94JGrbifvzSApsLFnZym75v9mGgmE6OnnCVbD7411+o8vZZNu1u8+LxjwXLPk9unopt9pJXv8go7thA==
+  dependencies:
+    "@cloudinary-util/types" "1.0.0"
+    "@cloudinary-util/url-loader" "5.0.0"
+    "@cloudinary-util/util" "^3.0.0"
+    "@tsconfig/recommended" "^1.0.3"
+
 next-themes@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/next-themes/-/next-themes-0.2.1.tgz#0c9f128e847979daf6c67f70b38e6b6567856e45"
@@ -5363,3 +5418,8 @@ yup@^1.3.3:
     tiny-case "^1.0.3"
     toposort "^2.0.2"
     type-fest "^2.19.0"
+
+zod@^3.22.4:
+  version "3.22.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.4.tgz#f31c3a9386f61b1f228af56faa9255e845cf3fff"
+  integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==

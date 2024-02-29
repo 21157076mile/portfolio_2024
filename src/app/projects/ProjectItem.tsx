@@ -1,5 +1,6 @@
-import Image from "next/image";
 import clsx from "clsx";
+
+import ProjectItemImage from "./ProjectItemImage";
 
 export type IProjectItem = {
   name: string;
@@ -24,20 +25,15 @@ export default function ProjectItem({ project, className }: Props) {
         <div className="relative inset-0 flex h-full w-full -translate-x-1 -translate-y-1 flex-col border border-slate-100 bg-white sm:flex-row lg:flex lg:max-w-full dark:border-slate-700 dark:bg-slate-800">
           <div className="px-2 sm:w-5/12">
             <div className="relative min-h-48 overflow-hidden sm:min-h-56">
-              <Image
-                fill
+              <ProjectItemImage
                 alt={project.name}
                 src={project.image}
-                style={{
-                  objectFit: "contain",
-                  objectPosition: "center",
-                }}
               />
             </div>
           </div>
           <div className="flex-1">
             <div className="px-5 pb-5 leading-normal sm:py-5">
-              <p className="text-lg font-bold" style={{ color: project.color }}>
+              <p className="text-lg font-bold mt-2 md:mt-0" style={{ color: project.color }}>
                 {project.name}
               </p>
               <p className="text-sm opacity-55">{project.description}</p>

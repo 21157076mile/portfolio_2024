@@ -1,27 +1,19 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import Footer from "./common/Footer";
 import Header from "./common/Header";
+import HeroBanner from "./common/hero-banner";
 import SocialMediaContact from "./common/SocialMediaContact";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center dark:bg-slate-800">
-      <Header />
+      <Header title="le vu trang dai" canonical="https://levutrangdai.id.vn/"/>
 
       <div className="container flex flex-1 items-center justify-center mb-2 sm:mb-10">
         <div className="flex flex-col sm:mt-10 sm:flex-row-reverse">
           <div className="relative mx-auto flex h-[320px] w-[320px] justify-center overflow-hidden rounded-full shadow sm:h-[360px] sm:w-[360px]">
-            <Image
-              fill
-              alt="Picture of Fernanda Martinez"
-              src="https://res.cloudinary.com/dpzkswl8u/image/upload/v1706692565/demon_slayer_ybgwdz.png"
-              style={{
-                objectFit: "cover",
-                objectPosition: "center",
-              }}
-            />
+            <HeroBanner />
           </div>
           <div className="ml-auto max-w-[500px] flex-1 pr-0 text-center font-light sm:pr-5">
             <p className="mt-10 text-5xl font-extralight sm:mt-0">

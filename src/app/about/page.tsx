@@ -8,7 +8,7 @@ import Skills from "./Skills";
 export default function Page() {
   return (
     <div className="flex min-h-screen flex-col items-center dark:bg-slate-800">
-      <Header />
+      <Header title="le vu trang dai | about " canonical="https://levutrangdai.id.vn/about"/>
       <div className="container flex-1">
         <div className="text-center">
           <h2 className="my-5 text-3xl font-extralight">about me</h2>

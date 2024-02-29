@@ -50,7 +50,7 @@ const myProjects: IProjectItem[] = [
 export default function Page() {
   return (
     <div className="flex min-h-screen flex-col items-center dark:bg-slate-800">
-      <Header />
+      <Header title="le vu trang dai | projects, portfolio" canonical="https://levutrangdai.id.vn/projects"/>
       <div className="container flex-1">
         <div className="mt-10 text-center">
           <h2 className="my-5 text-2xl font-extralight">
