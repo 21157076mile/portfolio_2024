@@ -9,7 +9,7 @@ const myProjects: IProjectItem[] = [
       "helps fast-food chains manage their orders from the kitchen to customers.",
     responsible: "I am in charge of the website for customers.",
     keywords: ["Tailwind CSS", "Next.js", "Redux", "Diqit"],
-    image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706976770/diqit_wdtejs.jpg",
+    image: "diqit_wdtejs",
     color: "#ef4427",
   },
   {
@@ -18,7 +18,7 @@ const myProjects: IProjectItem[] = [
     responsible:
       "I handle the website: analyze and estimate tasks, make plans for the front-end team, code, support testing, and deploy fortnight.",
     keywords: ["React", "Next.js", "AirAsia"],
-    image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706976770/airasia-food_b50ryj.jpg",
+    image: "airasia-food_b50ryj",
     color: "#f90103",
   },
   {
@@ -32,7 +32,7 @@ const myProjects: IProjectItem[] = [
       "Highcharts",
       "Inspectorio",
     ],
-    image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1706976770/inspectorio_vzhmqo.png",
+    image: "inspectorio_vzhmqo",
     color: "#0778f5",
   },
   {
@@ -42,7 +42,7 @@ const myProjects: IProjectItem[] = [
     responsible:
       "I am in charge of the widgets based on the client's requirements.",
     keywords: ["React", "Redux", "Highcharts", "Sentifi"],
-    image: "https://res.cloudinary.com/dpzkswl8u/image/upload/v1707213815/sentifi-product_sw8rzi.jpg",
+    image: "sentifi-product_sw8rzi",
     color: "#f47b21",
   },
 ];
