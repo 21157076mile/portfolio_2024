@@ -26,23 +26,14 @@ const config: Config = {
         primary: {
           light: "#f57264",
           DEFAULT: "#f57264", // orange vitaminC
-          dark: "#FF9966",
+          dark: "#ff9966",
         },
         secondary: "#042045",
         tertiary: "#27b5cf", // blue
         // mint: "#95bfac",
-        hophach: "#d3ad57", //"#fca311",
-
-
+        // hophach: "#d3ad57", //"#fca311",
         // highlight: '#ddd0fe',
-        // light: '#fefefe',
-        // dark: "#6658fe",
-        // lavender: "#9e81bf", // "#b392f0",
       },
-      // backgroundColor: {
-      //   highlight: "#f57264",
-      // },
-
       animation: {
         background: "background 2s ease-in-out infinite",
         linear: "backgroundLinear 3s linear infinite",

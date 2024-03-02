@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "swiper/css";
-@import "swiper/css/navigation";
-@import "swiper/css/pagination";
-
 :root {
   --color-primary: 245, 114, 100;
   --color-secondary: 111 114 185;
@@ -37,13 +33,3 @@ button:focus {
   // display: inline-block;
   flex-shrink: 0;
 }
-
-// body {
-// color: rgb(var(--foreground-rgb));
-// background: linear-gradient(
-//     to bottom,
-//     transparent,
-//     rgb(var(--background-end-rgb))
-//   )
-//   rgb(var(--background-start-rgb));
-// }

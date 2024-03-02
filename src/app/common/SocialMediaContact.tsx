@@ -9,7 +9,7 @@ export default function SocialMediaContact({
       <Link
         href="https://zalo.me/0989851497"
         rel="nofollow noreferrer"
-        className="text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
+        className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
         target="_blank"
       >
         <span>
@@ -20,7 +20,7 @@ export default function SocialMediaContact({
       <Link
         href="https://www.facebook.com/lvtd.hhd"
         rel="nofollow noreferrer"
-        className="text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
+        className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
         target="_blank"
       >
         facebook: <strong>/lvtd.hhd</strong>
