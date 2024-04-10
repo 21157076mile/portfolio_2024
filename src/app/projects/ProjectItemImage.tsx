@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { CldImage } from "next-cloudinary";
 
 type Props = {
@@ -25,11 +24,11 @@ export default function ProjectItemImage({alt, src}: Props) {
 };
 
 {/* <Image
-                fill
-                alt={project.name}
-                src={project.image}
-                style={{
-                  objectFit: "contain",
-                  objectPosition: "center",
-                }}
-              /> */}
+      fill
+      alt={project.name}
+      src={project.image}
+      style={{
+        objectFit: "contain",
+        objectPosition: "center",
+      }}
+    /> */}
