@@ -8,28 +8,29 @@ import SocialMediaContact from "./common/SocialMediaContact";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center dark:bg-slate-800">
-      <Header title="le vu trang dai" canonical="https://levutrangdai.id.vn/"/>
+      <Header title="le vu trang dai" canonical="https://levutrangdai.id.vn/" />
 
-      <div className="container flex flex-1 items-center justify-center mb-2 sm:mb-10">
+      <div className="container mb-2 flex flex-1 items-center justify-center sm:mb-10">
         <div className="flex flex-col sm:mt-10 sm:flex-row-reverse">
           <div className="relative mx-auto flex h-[320px] w-[320px] justify-center overflow-hidden rounded-full shadow sm:h-[360px] sm:w-[360px]">
             <HeroBanner />
           </div>
           <div className="ml-auto max-w-[500px] flex-1 pr-0 text-center font-light sm:pr-5">
             <p className="mt-10 text-5xl font-extralight sm:mt-0">
-              hi, i&apos;m Dai
+              hi, i&apos;m Đài
             </p>
 
             <div className="mt-5">
               <div>
                 <p>
-                  I&apos;m a front-end developer with 7+ years of hands-on
+                  a front-end developer with 7+ years of hands-on
                   experience with modern techniques based on JavaScript.
                 </p>
                 <p className="mt-2">
-                  I have experience working with Agile/Scrum methodology. And
-                  I&apos;m able to analyze, propose, and implement solutions to
-                  business features of own products.
+                  I have experience working with Agile/Scrum methodology and
+                  participating in the Scrum, ceremonies to plan, develop, review
+                  software deliverables. I&apos;m able to analyze, propose, and
+                  implement solutions to business features of own products.
                 </p>
               </div>
               <div className="mt-3 flex select-none items-center justify-center text-sm">
@@ -62,10 +63,23 @@ export default function Home() {
               </p> */}
               <p className="mt-5">
                 Other than coding, I love cycling to the countryside with my
-                friends for some fresh air. If you&apos;re interested you can go
-                with us, get in touch here!
+                friends at weekend. If you&apos;re interested in cycling and
+                willing to go, don&apos;t hesitate to get in touch with me here:
               </p>
-              <SocialMediaContact className="mt-3" />
+              <SocialMediaContact className="mt-2" />
+              <p className="mt-2">
+                Anyway, please follow my{" "}
+                <Link
+                  href="https://www.facebook.com/uixcrazy"
+                  rel="nofollow noreferrer"
+                  className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
+                  target="_blank"
+                >
+                  <strong>Fanpage Facebook</strong>
+                </Link>
+                , or share your wide-ranging knowledge with this community—so many
+                thanks for your time.
+              </p>
             </div>
           </div>
         </div>

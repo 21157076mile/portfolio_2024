@@ -42,7 +42,7 @@ export default function Hobbies() {
     <>
       <p>
         I am so into cycling to the countryside, go through uncharted territory,
-        enjoy slow living amid lush greenery, expansive rice fields... and get
+        enjoy slow living amid lush greenery, expansive rice fields and get
         some fresh air.
       </p>
 

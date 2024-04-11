@@ -3,6 +3,7 @@ import Header from "../common/Header";
 import SocialMediaContact from "../common/SocialMediaContact";
 import DownloadResume from "./DownloadResume";
 import Hobbies from "./Hobbies";
+import PersonalityTrait from "./PersonalityTrait";
 import Skills from "./Skills";
 
 export default function Page() {
@@ -16,9 +17,9 @@ export default function Page() {
         <div className="text-center">
           <h2 className="my-5 text-3xl font-extralight">about me</h2>
           <div className="mx-auto max-w-[768px] font-light">
-            <p>Hi there! My name&apos;s Dai. Thanks for comming here.</p>
+            <p>Hi there! My name&apos;s <strong className="animate-linear bg-gradient-to-r from-primary via-tertiary to-primary bg-[length:200%_auto] bg-clip-text font-bold text-transparent">Đài</strong>,</p>
             <p className="mt-1">
-              I&apos;m a front-end developer with 7+ years of hands-on
+              a front-end developer with 7+ years of hands-on
               experience with modern techniques based on JavaScript.
             </p>
             <p className="mt-1">
@@ -40,6 +41,13 @@ export default function Page() {
           <h2 className="my-5 text-3xl font-extralight">my skills</h2>
           <div className="mx-auto max-w-[768px]">
             <Skills />
+          </div>
+        </div>
+
+        <div className="mt-10 text-center">
+          <h2 className="my-5 text-3xl font-extralight">my personality traits</h2>
+          <div className="mx-auto max-w-[768px]">
+            <PersonalityTrait />
           </div>
         </div>
 
