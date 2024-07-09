@@ -5,7 +5,7 @@ import DownloadResume from "./DownloadResume";
 import Hobbies from "./Hobbies";
 import PersonalityTrait from "./PersonalityTrait";
 import RecentAchievement from "./RecentAchievement";
-import Skills from "./Skills";
+// import Skills from "./Skills";
 
 export default function Page() {
   return (
@@ -41,7 +41,9 @@ export default function Page() {
         <div className="mt-10 text-center">
           <h2 className="my-5 text-3xl font-extralight">my skills</h2>
           <div className="mx-auto max-w-[768px]">
-            <Skills />
+            <p>I am so into cycling to the countryside, go through uncharted territory,
+        enjoy slow living amid lush greenery, expansive rice fields and get
+        some fresh air.</p>
           </div>
         </div>
 

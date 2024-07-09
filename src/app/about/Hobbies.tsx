@@ -46,7 +46,7 @@ export default function Hobbies() {
         some fresh air.
       </p>
 
-      <div className="mx-auto pt-5 px-5">
+      {/* <div className="mx-auto pt-5 px-5">
         <div className="columns-2 gap-1 sm:columns-3 sm:gap-3 [&>img:not(:first-child)]:mt-1 sm:[&>img:not(:first-child)]:mt-3">
           {images.map((image, index) => (
             <img
@@ -57,7 +57,7 @@ export default function Hobbies() {
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

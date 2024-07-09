@@ -64,9 +64,21 @@ export default function Home() {
               <p className="mt-5">
                 Other than coding, I love cycling to the countryside with my
                 friends at weekend. If you&apos;re interested in cycling and
-                willing to go, don&apos;t hesitate to get in touch with me here:
+                willing to go, don&apos;t hesitate to get in touch with me on
               </p>
-              <SocialMediaContact className="mt-2" />
+              <Link
+                href="https://zalo.me/0989851497"
+                rel="nofollow noreferrer"
+                className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
+                target="_blank"
+              >
+                <span>
+                  zalo: <strong>0989851497</strong>
+                </span>
+              </Link>
+              {/* <SocialMediaContact className="mt-2" /> */}
+
+
               <p className="mt-2">
                 Anyway, please follow my{" "}
                 <Link

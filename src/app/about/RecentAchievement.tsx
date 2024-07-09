@@ -11,13 +11,9 @@ export default function RecentAchievement() {
           className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
           target="_blank"
         >
-          <strong>Take the Lead</strong>
+          <strong>TAKE THE LEAD</strong>
         </Link>{" "}
-        of Mexoxo collaborates with eCornell University. By taking this online
-        course, you will not only aim to be a leader but also have an
-        opportunity to enhance your career path and explore yourself. From my
-        own experience, I would advise you to take the course as well. It&apos;s
-        still available now.
+        powered by Mexoxo with the support of L&apos;Oréal Fund for Women, which collaborates with eCornell University .
       </p>
     </div>
   );

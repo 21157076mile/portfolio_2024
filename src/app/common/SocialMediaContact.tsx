@@ -23,7 +23,16 @@ export default function SocialMediaContact({
         className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
         target="_blank"
       >
-        facebook: <strong>/lvtd.hhd</strong>
+        facebook: <strong>@lvtd.hhd</strong>
+      </Link>
+      <span className="mx-2 text-slate-100 dark:text-slate-800">|</span>
+      <Link
+        href="https://www.tiktok.com/@dailetd"
+        rel="nofollow noreferrer"
+        className="text-sky-700 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
+        target="_blank"
+      >
+        tiktok: <strong>@dailetd</strong>
       </Link>
     </div>
   );
