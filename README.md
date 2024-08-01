@@ -11,10 +11,21 @@ npm i
 yarn
 ```
 
+[[
 2. ❗ don't forget to run `yarn husky install .config/husky` to enable husky
    (you can use **npx** instead **yarn**)
 
 「 `npx husky add .config/husky/pre-commit "npx lint-staged"` 」
+
+]]
+
+2. install husky and lint-staged
+
+```bash
+- husky v9:
+  - init: `npx husky init`
+  - add lint-staged: `echo "npx lint-staged" > .husky/pre-commit`
+```
 
 3. Run the development server:
 

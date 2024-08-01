@@ -1,6 +1,6 @@
 # CONVENTION \_\_ VSCode Extensions
 
-- run `npx husky install .config/husky` to enable husky.
+- run [husky](https://typicode.github.io/husky/get-started.html) to enable husky.
 - install two extensions: ESLint and Prettier.
 - open **Settings**:
   - update **defaultFormatter** → `Prettier - Code formatter`

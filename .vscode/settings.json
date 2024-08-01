@@ -5,5 +5,7 @@
   "editor.formatOnSave": false,
   "tailwindCSS.experimental.classRegex": [
     ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ]
+  ],
+  // required in vscode-eslint < v3.0.10 only
+  "eslint.experimental.useFlatConfig": true
 }

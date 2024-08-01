@@ -16,7 +16,11 @@ ESLint: catching problems (bugs or format...)
 we already configure in project.
 You need enable husky on your side and get some plugin support VSCode (or your editor)
 
-- run `npx husky install .config/husky` to enable husky.
+[ OLD v8 - run `npx husky install .config/husky` to enable husky.]
+- husky v9:
+  - init: `npx husky init`
+  - add lint-staged: `echo "npx lint-staged" > .husky/pre-commit`
+
 - install two extensions: ESLint and Prettier for VSCode.
 - VSCode: open settings and update **defaultFormatter**
 
